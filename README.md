@@ -52,28 +52,30 @@ Fast analysis powered by Gemini 2.0 Flash delivers results in seconds.
 </tr>
 </table>
 
-### 🔍 TUM Image Analyzer Integration (NEW)
+### 🔍 Feature Extraction Mode
 
-This feature integrates the [**TUM Image Analyzer**](https://github.com/digital-marketing-tum/image-analyzer) GitHub project, originally developed by the Digital Marketing department at the Technical University of Munich. We adapted their comprehensive image feature extraction pipeline to work alongside our logo detection system:
+Inspired by the [**TUM Image Analyzer**](https://github.com/digital-marketing-tum/image-analyzer) research project from the Technical University of Munich, we implemented a similar feature extraction output format powered by **Google Gemini AI**:
 
 | Feature | Description |
 |---------|-------------|
-| **OCR Extraction** | Extract visible text from images (brand names, slogans, prices) |
+| **OCR Extraction** | AI-detected visible text from images (brand names, slogans, prices) |
 | **LLM Description** | AI-generated rich descriptions of image content |
-| **Visual Features** | Brightness, contrast, saturation, and dominant colors |
+| **Visual Features** | AI-estimated brightness, contrast, saturation, and dominant colors |
 | **Tags & Sentiment** | Automatic tagging and sentiment analysis |
 | **Person Detection** | Identify people and influencers in media content |
 
+> **🚧 Coming Soon:** We are actively working on integrating the actual TUM Image Analyzer library for computed pixel-level metrics. The current implementation uses Gemini AI to estimate these features.
+
 Select from three analysis modes:
 - **🎯 Logo Detection**: Fast brand logo identification with bounding boxes
-- **🔍 Feature Extraction**: Deep analysis using TUM Image Analyzer methodology
+- **🔍 Feature Extraction**: Gemini-powered analysis inspired by TUM methodology
 - **✨ Combined Analysis**: Both logo detection and feature extraction together
 
 <div align="center">
 
 <img src="brand-monitoring-app/public/screenshots/app_demo_combined_analysis.png" alt="Combined Analysis Demo" width="100%">
 
-*Combined Analysis mode detecting Coca-Cola (98% confidence) and Millie Bobby Brown in a Stranger Things clip — showcasing logo detection + TUM-style feature extraction with OCR, visual features, and sentiment tags*
+*Combined Analysis mode detecting Coca-Cola (98% confidence) and Millie Bobby Brown in a Stranger Things clip — showcasing logo detection + Gemini-powered feature extraction with OCR, visual features, and sentiment tags*
 
 </div>
 
@@ -111,7 +113,7 @@ Select from three analysis modes:
 
 <img src="brand-monitoring-app/public/screenshots/app_demo_combined_analysis.png" alt="Combined Analysis - Full Feature Demo" width="100%">
 
-*Full Combined Analysis: Coca-Cola detection (98%), influencer recognition (Millie Bobby Brown, 95%), OCR text extraction, visual features (brightness, contrast, saturation), dominant colors, and AI-generated sentiment tags — powered by the [TUM Image Analyzer](https://github.com/digital-marketing-tum/image-analyzer) integration*
+*Full Combined Analysis: Coca-Cola detection (98%), influencer recognition (Millie Bobby Brown, 95%), OCR text extraction, visual features (brightness, contrast, saturation), dominant colors, and AI-generated sentiment tags — all powered by Google Gemini AI*
 
 </div>
 
@@ -304,12 +306,14 @@ Works with any platform supporting Next.js:
 
 ## 🙏 Acknowledgments
 
-This project incorporates and extends the [**TUM Image Analyzer**](https://github.com/digital-marketing-tum/image-analyzer) developed by the Digital Marketing department at the Technical University of Munich. The Feature Extraction mode is based on their methodology for comprehensive image analysis, including:
+The Feature Extraction mode was inspired by the [**TUM Image Analyzer**](https://github.com/digital-marketing-tum/image-analyzer) developed by the Digital Marketing department at the Technical University of Munich. Their comprehensive approach to image feature extraction influenced our output structure:
 
-- Visual feature extraction (brightness, contrast, saturation, dominant colors)
-- OCR text detection
-- AI-powered image description and tagging
-- Sentiment analysis
+- Visual feature categories (brightness, contrast, saturation, dominant colors)
+- OCR text extraction format
+- Image description and tagging schema
+- Sentiment analysis output
+
+The current implementation uses Google Gemini AI to estimate these features. We are actively working on integrating the actual TUM Image Analyzer library to provide computed pixel-level metrics using their dedicated ML models, PyTorch, and Tesseract OCR.
 
 We thank the TUM team for making their research openly available.
 
