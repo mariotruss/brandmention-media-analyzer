@@ -13,7 +13,7 @@
 
 ---
 
-<img src="public/screenshots/app_demo_beer_brands.png" alt="Brand Monitor - Multi-brand Detection" width="100%">
+<img src="brand-monitoring-app/public/screenshots/app_demo_beer_brands.png" alt="Brand Monitor - Multi-brand Detection" width="100%">
 
 *Detecting 7 beer brands with 92% confidence — Corona, Guinness, Blue Moon, and more*
 
@@ -71,7 +71,7 @@ Select from three analysis modes:
 
 <div align="center">
 
-<img src="public/screenshots/app_demo_combined_analysis.png" alt="Combined Analysis Demo" width="100%">
+<img src="brand-monitoring-app/public/screenshots/app_demo_combined_analysis.png" alt="Combined Analysis Demo" width="100%">
 
 *Combined Analysis mode detecting Coca-Cola (98% confidence) and Millie Bobby Brown in a Stranger Things clip — showcasing logo detection + TUM-style feature extraction with OCR, visual features, and sentiment tags*
 
@@ -85,7 +85,7 @@ Select from three analysis modes:
 
 ### 🏎️ Sponsor Detection in F1 Racing
 
-<img src="public/screenshots/app_demo_f1_sponsors.png" alt="F1 Car Sponsor Detection" width="100%">
+<img src="brand-monitoring-app/public/screenshots/app_demo_f1_sponsors.png" alt="F1 Car Sponsor Detection" width="100%">
 
 *8 sponsor brands detected on a Ferrari F1 car — Ferrari, Shell, Ray-Ban, Pirelli, Hublot, Lenovo, AMD, Kaspersky*
 
@@ -93,7 +93,7 @@ Select from three analysis modes:
 
 ### 🎬 Product Placement in Movies
 
-<img src="public/screenshots/app_demo_product_placement.png" alt="Movie Product Placement" width="100%">
+<img src="brand-monitoring-app/public/screenshots/app_demo_product_placement.png" alt="Movie Product Placement" width="100%">
 
 *Wayne's World Pizza Hut scene — detecting iconic product placement with 93% confidence*
 
@@ -101,7 +101,7 @@ Select from three analysis modes:
 
 ### 📹 Video Brand Tracking
 
-<img src="public/screenshots/app_demo_video_analysis.png" alt="Video Analysis - Stranger Things" width="100%">
+<img src="brand-monitoring-app/public/screenshots/app_demo_video_analysis.png" alt="Video Analysis - Stranger Things" width="100%">
 
 *Stranger Things Coca-Cola placement — video analysis with frame extraction and 98% confidence*
 
@@ -109,7 +109,7 @@ Select from three analysis modes:
 
 ### ✨ Combined Analysis (Logo + Feature Extraction)
 
-<img src="public/screenshots/app_demo_combined_analysis.png" alt="Combined Analysis - Full Feature Demo" width="100%">
+<img src="brand-monitoring-app/public/screenshots/app_demo_combined_analysis.png" alt="Combined Analysis - Full Feature Demo" width="100%">
 
 *Full Combined Analysis: Coca-Cola detection (98%), influencer recognition (Millie Bobby Brown, 95%), OCR text extraction, visual features (brightness, contrast, saturation), dominant colors, and AI-generated sentiment tags — powered by the [TUM Image Analyzer](https://github.com/digital-marketing-tum/image-analyzer) integration*
 
